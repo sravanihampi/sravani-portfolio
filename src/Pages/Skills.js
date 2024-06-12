@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/Skills.css'
+import Lottie from "lottie-react";
 import Skilimg from '../Images/react.png'
 import Skilimg1 from '../Images/css.png'
 import Skilimg2 from '../Images/github.png'

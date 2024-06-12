@@ -35,6 +35,8 @@
     align-items: center;
     justify-content: space-evenly;
     column-gap: 120px;
+    box-shadow: 2px 2px 10px rgba(248, 88, 14, 0.896);
+
 }
 
 /* Responsive styles */

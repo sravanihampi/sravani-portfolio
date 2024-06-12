@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Home.css';
-import pic2 from '../Images/my.jpeg';
+import pic2 from '../Images/profile.png';
 
 const Home = () => {
   const handleDownload = () => {

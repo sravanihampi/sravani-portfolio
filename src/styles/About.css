@@ -27,6 +27,7 @@
 .fourth {
   line-height: 4vh;
   font-weight: bold;
+  width: 800px;
 }
 
 .btn {
@@ -70,6 +71,9 @@
   .first {
     margin-top: 5%;
     text-align: center;
+  }
+  .fourth {
+    width: 300px;
   }
 
   .btn {
