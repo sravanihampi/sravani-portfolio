@@ -1,0 +1,117 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #171515;
+    box-sizing: border-box;
+  }
+  
+  .herosection {
+    color: #333;
+    height: 100vh;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .left {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .para, .para2, .herosectionh1, .stack {
+    margin-bottom: 20px;
+  }
+  
+  .para {
+    color: #555;
+    font-size: 1.2rem;
+  }
+  
+  .herosectionh1 {
+    font-size: 2.5rem;
+  }
+  
+  .herosectionh1 span {
+    color: #666;
+  }
+  
+  .stack {
+    font-size: 1.8rem;
+    color: #888;
+  }
+  
+  .para2 {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #444;
+  }
+  
+  .btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  .right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .homeimg {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #333;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 768px) {
+    .herosection {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .left, .right {
+      width: 100%;
+    }
+  
+    .homeimg {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .herosectionh1 {
+      font-size: 2rem;
+    }
+  
+    .stack {
+      font-size: 1.5rem;
+    }
+  
+    .para2 {
+      font-size: 0.9rem;
+    }
+  
+    .btn {
+      font-size: 0.9rem;
+    }
+  }
+  
